@@ -1,0 +1,88 @@
+Chapter 1
+Basic Probability
+This chapter is an introduction to the basic concepts of probability theory.
+
+
+Chance Events
+Randomness is all around us. Probability theory is the mathematical framework that allows us to analyze chance events in a logically sound manner. The probability of an event is a number indicating how likely that event will occur. This number is always between 0 and 1, where 0 indicates impossibility and 1 indicates certainty.
+
+A classic example of a probabilistic experiment is a fair coin toss, in which the two possible outcomes are heads or tails. In this case, the probability of flipping a head or a tail is 1/2. In an actual series of coin tosses, we may get more or less than exactly 50% heads. But as the number of flips increases, the long-run frequency of heads is bound to get closer and closer to 50%.
+
+Flip the Coin
+Flip 100 times
+For an unfair or weighted coin, the two outcomes are not equally likely. You can change the weight or distribution of the coin by dragging the true probability bars (on the right in blue) up or down. If we assign numbers to the outcomes — say, 1 for heads, 0 for tails — then we have created the mathematical object known as a random variable.
+
+Expectation
+The expectation of a random variable is a number that attempts to capture the center of that random variable's distribution. It can be interpreted as the long-run average of many independent samples from the given distribution. More precisely, it is defined as the probability-weighted sum of all possible values in the random variable's support,
+
+E[X]=∑x∈xP(x)
+So, the expected value for a variable X is the value of X we would “expect” to get after performing the experiment once. It is also called the expectation, average, and mean value. Mathematically speaking, for a random variable X that can take values
+
+Variance
+Whereas expectation provides a measure of centrality, the variance of a random variable quantifies the spread of that random variable's distribution. The variance is the average value of the squared difference between the random variable and its expectation,
+
+Var(X)=E[(X−E[X])2]
+Draw cards randomly from a deck of ten cards. As yo
+
+Set Theory
+A set, broadly defined, is a collection of objects. In the context of probability theory, we use set notation to specify compound events. For example, we can represent the event "roll an even number" by the set {2, 4, 6}. For this reason it is important to be familiar with the algebra of sets.
+
+
+Addition Rule 1: When two events, A and B, are mutually exclusive, the probability that A or B will occur is the sum of the probability of each event.
+
+P(A or B) = P(A) + P(B)
+
+Additional Rule 2: When two events, A and B, are non-mutually exclusive, the probability that A or B will occur is:
+
+P(A or B) = P(A) + P(B) - P(A and B)
+
+efinition: Two events, A and B, are independent if the fact that A occurs does not affect the probability of B occurring.
+
+Some other examples of independent events are:
+
+Landing on heads after tossing a coin AND rolling a 5 on a single 6-sided die.
+Choosing a marble from a jar AND landing on heads after tossing a coin.
+Choosing a 3 from a deck of cards, replacing it, AND then choosing an ace as the second card.
+Rolling a 4 on a single 6-sided die, AND then rolling a 1 on a second roll of the die.
+
+To find the probability of two independent events that occur in sequence, find the probability of each event occurring separately, and then multiply the probabilities. This multiplication rule is defined symbolically below. Note that multiplication is represented by AND.
+
+Multiplication Rule 1: When two events, A and B, are independent, the probability of both occurring is:
+
+P(A and B) = P(A) · P(B)
+
+Problem: A math teacher gave her class two tests. 25% of the class passed both tests and 42% of the class passed the first test. What percent of those who passed the first test also passed the second test?
+
+Analysis: This problem describes a conditional probability since it asks us to find the probability that the second test was passed given that the first test was passed. In the last lesson, the notation for conditional probability was used in the statement of Multiplication Rule 2.
+
+Multiplication Rule 2: When two events, A and B, are dependent, the probability of both occurring is:
+P(A and B) = P(A) . P(B|A)
+
+conditional probability
+P(B|A) = P(A and B) / P(A) 
+
+So basically, a probability distribution is ANY form of representation that tells us the probability for all possible values of X. It could be any of the following:
+
+
+## Combinatorics
+Number of The permutations of 2, 3, 4, 5 are:
+4 . 3 . 2 . 1
+
+i.e.
+5432, 5423, 5324, 5342, 5234, 5243, 4532, 4523, 4325, 4352, 4253, 4235, 3542, 3524, 3425, 3452, 3254, 3245, 2543, 2534, 2435, 2453, 2354, 2345
+
+choosing a subset:
+How many different 5-card hands can be made from a standard deck of cards?
+52 . 51 . 50 . 49 . 48 = 52!/47!
+
+nPk = n!/(n-k!)
+
+such that repetition not allowed
+To fix this we need to divide by the number of hands that are different permutations but the same combination
+
+nCk = n!/k!(n-k!)
+
+So the important point about circular arrangement is as follows:
+
+If the clockwise and counter clockwise orders CAN be distinguished then total number of circular permutation of n elements taken all together = (n-1)!
+If the clockwise and counter clockwise orders CANNOT be distinguished then total number of circular permutation of n elements taken all together = (n-1)! / 2
