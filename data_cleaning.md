@@ -45,6 +45,9 @@ companies = companies[companies.isnull().sum(axis=1) <= 3]
 companies = companies[companies["category_list"].notnull()]
 
 
+del df['column_name']
+
+
 #Remove NaNs in Raised Amount
 rounds2 = rounds2[~np.isnan(rounds2['raised_amount_usd'])]
 
@@ -56,7 +59,8 @@ for el in list(loan_df.columns):
     print(loan_df[el].unique())
 
 
-companies["permalink"] = companies["permalink"].str.lower()
+#Covert to lowercase
+master_frame["col"] = master_frame["col"].str.lower()
 
 #in sectors, "na" is mistyped as 0
 sectors['category_list'] = sectors['category_list'].str.replace('0','na')

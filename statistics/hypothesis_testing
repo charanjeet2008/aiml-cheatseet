@@ -1,0 +1,36 @@
+Inferential statistics is used to find some population parameter (mostly population mean) when you have no initial number to start with. So, you start with the sampling activity and find out the sample mean. Then, you estimate the population mean from the sample mean using the confidence interval.
+
+ 
+
+Hypothesis testing is used to confirm your conclusion (or hypothesis) about the population parameter (which you know from EDA or your intuition). Through hypothesis testing, you can determine whether there is enough evidence to conclude if the hypothesis about the population parameter is true or not.
+
+Types of hypotheses
+
+Types of tests
+
+Decision criteria
+
+Critical value method of hypothesis testing
+
+Hypothesis Testing starts with the formulation of these two hypotheses:
+
+Null hypothesis (H₀): The status quo
+
+Alternate hypothesis (H₁): The challenge to the status quo
+
+The null hypothesis always has the following signs:  =  OR   ≤   OR    ≥
+
+ 
+
+The alternate hypothesis always has the following signs:  ≠   OR  >   OR    <
+
+ 
+ You can tell the type of the test and the position of the critical region on the basis of the ‘sign’ in the alternate hypothesis.
+
+      
+
+       ≠ in H₁    →   Two-tailed test        →     Rejection region on both sides of distribution
+
+       < in H₁    →   Lower-tailed test     →     Rejection region on left side of distribution
+
+       > in H₁    →   Upper-tailed test     →     Rejection region on right side of distribution

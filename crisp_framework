@@ -1,0 +1,34 @@
+CRISP-DM framework - Cross Industry Standard Process for Data Mining. 
+Business understanding
+Data understanding
+Data Preparation
+Data Modelling
+Model Evaluation
+Model Deployment
+
+Business understanding:
+"I never failed once. It just happened to be a 2000-step process."
+Determine the business objectives clearly
+Determine the goals of data analysis 
+
+Data understanding: 
+"Data! Data! Data! I can’t make bricks without clay!"
+Collect relevant data
+Describe datasets
+Explore data by plotting graphs
+Check data quality
+
+Data Preparation:
+"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."
+Select relevant data
+Integrate data
+Clean data
+Construct Data: Derive new features
+Format Data
+
+Data Modelling:
+"If you torture the data long enough, it will confess."
+
+
+Model Evaluation:
+"True genius resides in the capacity for evaluation of uncertain, hazardous and conflicting information."

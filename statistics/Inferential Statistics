@@ -1,0 +1,140 @@
+This process of “inferring” insights from sample data is called “Inferential Statistics”.
+
+If we assign numbers to the outcomes — say, 1 for heads, 0 for tails — then we have created the mathematical object known as a random variable.
+So, the random variable X basically converts outcomes of experiments to something measurable.
+
+
+
+
+
+So, the formula for finding binomial probability is given by -
+
+ 
+
+P
+(
+X
+=
+r
+)
+=
+ 
+n
+C
+r
+(
+p
+)
+r
+(
+1
+−
+p
+)
+n
+−
+r
+
+ 
+
+Where n is no. of trials, p is probability of success and r is no. of successes after n trials.
+
+ 
+
+However, as Prof. Tricha said, there are some conditions that need to be followed in order for us to be able to apply the formula.
+
+Total number of trials is fixed at n
+
+Each trial is binary, i.e., has only two possible outcomes - success or failure
+
+Probability of success is same in all trials, denoted by p
+binomial distribution is applicable in situations where there are a fixed number of yes or no questions, with the probability of a yes or a no remaining the same in all the questions.
+the binomial distribution can be used if, for an experiment:
+
+The total number of trials is fixed
+
+Each trial is binary, i.e. has only two possible outcomes, success and failure
+
+The probability of success is the same for all the trials
+
+
+So, the cumulative probability of X, denoted by F(x), is defined as the probability of the variable being less than or equal to x.
+
+CDF, or a cumulative distribution function, is a distribution which plots the cumulative probability of X against X.
+
+A PDF, or Probability Density Function, however, is a function in which the area under the curve, gives you the cumulative probability.
+The main difference between the cumulative probability distribution of a continuous random variable and a discrete one, is the way you plot them. While the continuous variables’ cumulative distribution is a curve, the distribution for discrete variables looks more like a bar chart:
+
+a very famous probability density function — the normal distribution. You saw that it is symmetric and its mean, median and mode lie at the centre.
+All data that is normally distributed follows the 1-2-3 rule. This rule states that there is a -
+
+68% probability of the variable lying within 1 standard deviation of the mean
+
+95% probability of the variable lying within 2 standard deviations of the mean
+
+99.7% probability of the variable lying within 3 standard deviations of the mean
+As you just learnt, the standardised random variable is an important parameter. It is given by:
+
+ 
+
+Z
+=
+X
+−
+μ
+σ
+
+ 
+
+Basically, it tells you how many standard deviations away from the mean your random variable is.
+ you can find the cumulative probability corresponding to a given value of Z, using the Z table:
+ 
+So, the sampling distribution, specifically the sampling distribution of the sample means, is a probability density function for the sample means of a population.
+
+The sampling distribution’s mean is denoted by 
+μ
+¯
+X
+the central limit theorem says that, for any kind of data, provided a high number of samples has been taken, the following properties hold true:
+
+Sampling distribution’s mean (
+μ
+¯
+X
+) = Population mean (μ)
+
+Sampling distribution’s standard deviation (Standard error) = 
+σ
+√
+n
+
+For n > 30, the sampling distribution becomes a normal distribution
+
+This sample’s mean was \bar{X} = 36.6 minutes and its standard deviation was S = 10 minutes.
+
+ 
+
+Recall that we also said that the population mean, i.e. daily commute time of all 30,000 employees \bar{X} = 36.6 (sample mean) + some margin of error.
+
+ 
+
+If you remember, you did not learn exactly how to find this margin of error.
+Recall that you are doing sampling because you want to find the population mean, albeit in the form of an interval. The three steps to follow are as follows:
+
+First, take a sample of size n
+
+Then, find the mean \bar{X}} and standard deviation S of this sample
+
+Now, you can say that for y% confidence level, the confidence interval for the population mean \mu, is given by (\bar{X}-\frac{Z^{*}S}{\sqrt{n}}, \bar{X}+\frac{Z^{*}S}{\sqrt{n}})
+
+ The probability associated with the claim is called confidence level (here, it is 95.4%)
+The maximum error made in sample mean is called margin of error (here, it is 2 minutes)
+Final interval of values is called confidence interval [here, it is the range (34.6, 38.6)]
+
+Then, you generalised the whole process. Let’s say you have a sample with sample size n, mean \\bar{X} and standard deviation S. You learnt that the y% confidence interval (i.e. confidence interval corresponding to y% confidence level) for \\mu will be given by the range:
+
+Confidence interval = (\\bar{X}-\\frac{Z^{*}S}{\\sqrt{n}}, \\bar{X}+\\frac{Z^{*}S}{\\sqrt{n}})
+
+ 
+
+Where, Z* is the Z-score associated with a y% confidence level.
